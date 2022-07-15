@@ -601,7 +601,7 @@ pre code {
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
-  }
+  }  
 }
 
 @media (min-width: 1200px) {
@@ -627,7 +627,7 @@ pre code {
   .container-sm,
   .container {
     max-width: 540px;
-  }
+  }  
 }
 
 @media (min-width: 768px) {
@@ -636,7 +636,7 @@ pre code {
   .container-sm,
   .container {
     max-width: 720px;
-  }
+  }  
 }
 
 @media (min-width: 992px) {
@@ -646,7 +646,7 @@ pre code {
   .container-sm,
   .container {
     max-width: 960px;
-  }
+  }  
 }
 
 @media (min-width: 1200px) {
@@ -968,7 +968,7 @@ pre code {
     min-width: 0;
     max-width: 100%;
   }
-
+  
   .row-cols-sm-1>* {
     flex: 0 0 100%;
     max-width: 100%;
@@ -1180,7 +1180,7 @@ pre code {
     flex-grow: 1;
     min-width: 0;
     max-width: 100%;
-  }
+  }  
 
   .row-cols-md-1>* {
     flex: 0 0 100%;
@@ -8566,6 +8566,11 @@ button.bg-dark:focus {
   margin-bottom: 3rem !important;
 }
 
+.mb-6,
+.my-6 {
+  margin-bottom: 6rem !important;
+}
+
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important;
@@ -11141,7 +11146,7 @@ a.text-dark:focus {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(4rem + 104px);
+    padding-top: calc(3rem + 104px);
     padding-bottom: 5rem;
   }
 
@@ -11262,4 +11267,13 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.icon-sm {
+  height: 2em;
+  width:2em ;
+}
+.icon-xl {
+  height: 3em;
+  width:3em ;
 }
